@@ -4,6 +4,8 @@ internal class DemoClass : IDemoInterface
 {
     private readonly int _privateProperty;
 
+    private string Knuth = "Conway";
+
     public string InterfaceProperty { get; set; }
 
     public int PublicProperty { get; set; }
